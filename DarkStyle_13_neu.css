@@ -1,0 +1,259 @@
+@import url(style_includes/new_player_13.css);
+@import url(style_includes/item_shop.css); 
+@import url(style_includes/item_auftrag.css); 
+@import url(style_includes/new_item_13.css); 
+@import url(style_includes/felder.css);
+@import url(style_includesDarkStyle/status.css);
+@import url(style_includesDarkStyle/transport.css);
+@import url(style_includesDarkStyle/addon.css);
+@import url(style_includes/zustaende.css);
+@import url(style_includesDarkStyle/inventar.css);
+@import url(style_includes/item_luxus.css);
+/* Freewar.de StyleSheet Cold Sunfire v1.0 - (C) 2004 - Aenderungen vorbehalten */
+/* Editied by Doran, Welt 11 */
+/*VTI, CID Komponente vom "Kaspersky Style" - ©2010 by isdrador - HP: http://kstyle.infos.lc  */
+/* Editied by Quetschenpaua, Welt 4 */
+/* Editied by Inkognito, Welt 13, World 1*/	
+/* Editied by Werwolf, Welt 13*/
+/* Designed by Dolgthrasir, Welt13*/
+/* global */
+p,ul,ol,div,td,span,layer,table,body	{ font-family: Arial, helvetica, sans-serif; font-size: 12px} /*; color: #d5d5d5;*/
+p 								{ margin: 0px; padding: 0px; }
+/* table */
+table 							{ border:0px; border-collapse: collapse; } /* cellspacing & cellpadding & border =0 no longer needed
+/* links */
+	a:link 			{color:#226622;text-decoration:none;font-weight:bold;}
+	a:visited 		{color:#226622;text-decoration:none;font-weight:bold;}
+	a:active 		{color:#226622;text-decoration:hover;font-weight:bold;}
+	a:hover  		{color:#FFFFFF;text-decoration:underline;font-weight:bold;}
+/* fonts */
+	h1 				{font-size:12px;font-weight:bold;margin-bottom:0px;}
+	.medium 			{font-size:10px;}
+	.small 			{font-size:9px;}
+/* colors */
+	.fontcolor 		{color: #555555;}
+	.white			{color: #000000;}
+/* bgcolors */
+	.body 			{background-color: #000000;}
+	.divider 		{background-color: #A1A1A1;}
+	.outline 		{background-color: #707070;}
+	.menubg			{background-color: #050505;}
+
+	.brightbg		{background-color: #252525;}
+	.verybrightbg	{background-color: #353535;}
+	.reallybrightbg	{background-color: #454545;}
+
+	.whitebg		{background-color: #000000;}
+	.blackbg 		{background-color: #000000;}
+	.brownbg 		{background-color: #555555;}
+/* forms */
+	.registerinput 	{width: 100%; font-size: 10px;}
+	.registersubmit 	{font-size: 10px;}
+	.logininput 		{width: 100%; font-size: 10px;}
+	.loginsubmit 	{width: 100%; font-size: 10px;}
+/* forms */
+	.input 			{ font-size: 11px; background-color: #454545; color: #FFFFFF; height: 17px; border: 1px solid #C85424; }
+	.submitsagen 	{ font-size: 11px; font-weight: bold; color: #000000; padding-bottom: 2px; width: 80px; height: 17px; margin-left: 2px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-image: url(images/button_bg2.jpg); }
+	.submitschreien 	{ font-size: 11px; font-weight: bold; color: #FF00FF; padding-bottom: 2px; width: 87px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-image: url(images/button_bg2.jpg); }
+	.submitclan 		{ font-size: 11px; font-weight: bold; color: #FF0000; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-image: url(images/button_bg2.jpg); }
+	.submitworldsay 	{ font-size: 11px; font-weight: bold; color: #000000; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-image: url(images/button_bg2.jpg); }
+	.submitgroup 	{ font-size: 11px; font-weight: bold; color: #FF8833; padding-bottom: 2px; width: 80px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-image: url(images/button_bg2.jpg); }
+	.submitwhisper 	{ font-size: 11px; font-weight: bold; color: #EEA500; padding-bottom: 2px; width: 88px; height: 17px; margin-right: 2px; border: thin #777777 solid; border-width: 1px; background-image: url(images/button_bg2.jpg); }
+
+textarea					{font-size:12px;background-color:#454545;border:1px solid #C85424;color:#FFFFFF;}
+select 					{font-size:11px;background-color:#454545;}
+/* banner stuff */
+	.bannerad 			{border:1px solid #C85424;}
+/* text classes */
+	.chattext 			{color: #CCCCCC;font-size:13px;}
+	.chattextscream 		{color: #FF00FF;font-size:13px;}
+	.chattextclan 		{color: #FF0000;font-size:13px;}
+	.chattextinfo 		{color: #A37300;font-size:13px;}
+	.chattextworldsay 	{color: #000000;background-color:#00CC66;font-size:13px;}
+	.chattextwhisper 	{color: #EEA500;font-size:13px;background-color:#transparent;border:2px solid #transparent;-moz-border-radius:5px 5px 5px 5px;}
+	.chattextgroup		{color: #FF8833;font-size:13px;}
+	.healthmed 			{color: #FF8000;}
+	.healthok 			{color: #00B500;}
+	.healthcritical 		{color: #D20000;}
+	.chatpics 			{visibility:visible;}
+/* frames bg */
+	.framebannerbg table {position:absolute; right: -150px}
+	/* VERSION */
+	.framemainbg:before { content: url(images/de.png) "~~~~Version 0.2.1 Beta - Hompage:http://w13.fwtools.de made by Werwolf / Dark-Style-Design by Dolgthrasir"; color: #d5d5d5; display: block; font-size: 10px; text-align: right; margin-top: -5px; line-height: 130%; }
+	/* ENDE */
+	.framechatformbg { background-color: #444444; }
+	.framechattextbg { background-color: #2C2C2C; background-image: url(imagesDarkStyle/textfeldbg.jpg); background-attachment: fixed; background-repeat:no-repeat; top: 50px; margin: 10px; margin-top: 5px; margin-bottom: 5px; margin-right: 5px; }
+	/*.framemainbg { margin: 10px; background-image: url(imagesDarkStyle/mainbg.jpg); background-repeat: repeat-y; background-position: right; }*/
+	.framemainbg { margin: 10px; background-color: #000000; color: #d5d5d5; background-repeat: repeat-y; background-position: right; }
+	.frameitembg { margin: 10px; background-color: #444444; background-image: url(imagesDarkStyle/itembg.jpg); color: #8B4726; overflow-x : hidden; }
+	.framemapbg { margin: 10px; margin-top: 3px; background-color: #444444; background-image: url(imagesDarkStyle/itembg.jpg); color: #d5d5d5; }
+	.framemenubg { background-color: #444444; background-image: url(imagesDarkStyle/itembg.jpg);}
+	
+	/* Inventar made by Werwolf */
+	p.listcaption + p.listrow .small b + b { margin: 0 0 0 -6px; }
+	p.listcaption + p.listrow .small b + b:before { content: " | "; background: #333333; }
+	
+	p.listcaption + p + p + p + p + p + p + p.listrow .valueincreased, p.listcaption + p + p + p + p + p + p + p + p.listrow .valueincreased, p.listcaption + p + p + p + p + p + p + p + p + p.listrow .valueincreased { display:inline-block; width:150px; }
+	p.listcaption + p + p + p + p + p + p + p.listrow, p.listcaption + p + p + p + p + p + p + p + p.listrow, p.listcaption + p + p + p + p + p + p + p + p +p.listrow { overflow:hidden; white-space:nowrap; }
+	p[title~="Zustand:"] { padding: 0 0 0 45px; }
+	p[title~="Zustand:"] b { position:absolute; left:-170px; }
+	p[title~="Zustand:"] b:before { content:""; position:relative; left:185px; }	
+	
+	.valueincreased {color: #00B500; font-size: smaller;}
+
+ 	#phasespacer {display:none;}
+	
+	/* Schnellzauber*/
+
+	#fastspell1, #fastspell2, #fastspell3, #fastspell4, #fastspell5, #fastspell6, #fastspell7, #fastspell8, #fastspell9 { margin-top: -1px; }
+	#fastspell { margin: -10px 5px 0px 0px; }
+	#fastspell td { padding: 0px 5px 0px 0px; }
+	
+	/* Itemlist */
+	/*Charakterbox*/
+	.frameitembg { margin: 10px; margin-top: 10px; background-color: #333333; background-image: url(imagesDarkStyle/itembg.jpg); }
+	.frameitembg img[src$="item_divider.gif"] {margin-top: -5px;height: 9px; }
+
+/* main module */
+	td.mainheader { font-size: 35px; background-image: url(imagesDarkStyle/headerbg.jpg); }
+	table.areadescription { border: 1px solid #000000; background-color: #000000; width: 100%; }
+	td.areadescription { padding: 5px; }
+	.imageborder { border: 1px solid #000000; background-color: #000000; margin-right: 10px; margin-bottom: 1px;}
+	p.maincaption { font-weight: bold; font-size: 30px; padding: 2px; padding-left: 5px; background-image: url(imagesDarkStyle/headerbg.jpg); }
+	p.maincaption2 { font-weight: bold; font-size: 12px; padding: 2px; padding-left: 5px; background-image: url(images/bluebg.jpg); }
+	p.maindesc1 { padding: 2px; padding-left: 5px; background-color: #333333; border: 1px solid #444444; border-top: 1px; width: 300px; }
+	p.maindesc2 { border: 1px solid #000000; background-color: #333333; width: 100%; }
+	p.listplaceitemsrow { padding: 2px; padding-left: 5px;  background-color: #333333; border: 1px solid #444444; border-top: 0px; }
+	p.listusersrow { padding: 2px; padding-left: 5px; background-color: #333333; border: 1px solid #444444; border-top: 0px; }
+/* item module */
+	p.listcaption { border: 1px solid #333333; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(	); }
+	p.listsubcaption { border-bottom: 1px solid #444444; }
+	p.listrow { padding: 2px; padding-left: 5px; background-color: #333333; border: 1px solid #222222; border-top: 0px; }
+	p.listitemrow { padding: 2px; padding-left: 5px; background-color: #3333333; border: 1px solid #222222; border-top: 0px; border-top: 1px solid #444444; margin-bottom: 3px; }
+	p.listmainrow { padding: 2px; min-height: 55px; padding-left: 5px; background-color: #333333; border: 1px solid #222222; border-top: 0px; }
+	p.listplaceitemsrow { padding: 2px; padding-left: 5px; background-color: #333333; border: 1px solid #222222; border-top: 0px; }
+	.valueincreased { font-weight: bold; color: #0000FF; }
+	.itemamount { font-weight: bold; color: #FF0000; }
+	.itemequipped { font-weight: bold; color: #0000FF; }
+	.itemmagic { font-weight: bold; color: #00B500; }
+	.iteminventorypics { visibility: visible; }
+/* map module */
+	p.positiontext { background-color: #000000; border: 1px solid #333333; color: #CCCCCC; font-size: 10px; margin-left: 0px; margin-right: 0px; margin-bottom: 3px; padding-left: 0px; padding-right: 0px; width: 100%; }
+/* main module */
+	p.personlistcaption { border: 1px solid #333333; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(imagesDarkStyle/buttonblue_bg.jpg); }
+	p.itemlistcaption { border: 1px solid #333333; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(imagesDarkStyle/buttonorange_bg.jpg); }
+/* misc */
+	.borderbg { background-color: #666666; }
+	img.nocango {background: transparent;}
+	a.nocango {background: #transparent; height: 50px; width: 50px; border-width: 0; display: block;}
+	a.nocango:hover {background: url(images/map/nocango.gif) top left no-repeat; cursor: default;}
+	
+	/* Charackterfähigkeiten */
+	
+	.abilitymenu { border:0px; border-collapse: collapse; }
+	.abilitymenu tr { padding: 2px; padding-left: 5px; background-color: #333333; }
+	.abilitymenu td {text-align: right; padding: 2px; padding-left: 5px; border: 1px solid #666666; }
+	td.c1 {text-align: left;}
+	.bold td{font-weight:bold;}
+		
+	#plantrow { border: 1px solid #444444; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(imagesDarkStyle/buttongreen_bg.jpg); }
+	.aggressivenpc { font-weight: bold; color: #0000FF; text-decoration:blink;}   
+	.friendlist { border-collapse: collapse; }
+	.friendlist tr { background-color: #333333; }
+	.friendlist td {padding: 3px; border-bottom: 1px solid #666666;white-space:nowrap;}
+/*Notruf*/
+	a[href*="clanmenu.php?action=sos"] {display: block; font-weight: bold; text-align: left;}
+/* > > Einstellungen */
+	a[href*="profil.php?action=skip"]:before { content: url(images/check.png); padding-right: 2px; }
+	a[href*="profil.php?action=skip"]:hover { color: #630000 !important; }
+	a[href*="profil.php?action=show"]:before { content: url(images/cross.png); padding-right: 2px; }
+	a[href*="profil.php?action=show"]:hover { color: #00B500 !important; }
+	form > input[name="ownstyle"] { width: 50%; }
+/* > > Item-/Gelduebergabe */
+	.frameitembg a[href*="item.php?action=transfer2"] { display: inline-block; margin: 0px 0px 5px 5px; }
+	.frameitembg a[href*="item.php?action=moneytransfer3"] { display: inline-block; margin: 0px 0px 5px 5px; }
+
+/*Clanmitglieder*/
+	.frameitembg *[title*="Mensch"]:after { display: block; content:" ("attr(title)")"; color:#000;font-size:10px; }
+	.frameitembg *[title*="Onlo"]:after { display: block; content:" ("attr(title)")"; color:#000;font-size:10px;  }
+	.frameitembg *[title*="Natla"]:after { display: block; content:" ("attr(title)")"; color:#000;font-size:10px;  }
+	.frameitembg *[title*="dunkler"]:after { display: block; content:" ("attr(title)")"; color:#000;font-size:10px;  }
+	.frameitembg *[title*="Serum"]:after { display: block; content:" ("attr(title)")"; color:#000;font-size:10px;  }
+	.frameitembg *[title*="Taruner"]:after { display: block; content:" ("attr(title)")"; color:#000;font-size:10px;  }
+/*Runenpuzzle*/
+	img[src$="minigame/a1.gif"] { display: inline-block; width: 0px; height: 40px; background: url(images/Runenpuzzel/1.png); background-repeat: no-repeat; padding-left: 40px; overflow: hidden; }
+	img[src$="minigame/a2.gif"] { display: inline-block; width: 0px; height: 40px; background: url(images/Runenpuzzel/2.png); background-repeat: no-repeat; padding-left: 40px; overflow: hidden; }
+	img[src$="minigame/a3.gif"] { display: inline-block; width: 0px; height: 40px; background: url(images/Runenpuzzel/3.png); background-repeat: no-repeat; padding-left: 40px; overflow: hidden; }
+	img[src$="minigame/a4.gif"] { display: inline-block; width: 0px; height: 40px; background: url(images/Runenpuzzel/4.png); background-repeat: no-repeat; padding-left: 40px; overflow: hidden; }
+	img[src$="minigame/a5.gif"] { display: inline-block; width: 0px; height: 40px; background: url(images/Runenpuzzel/5.png); background-repeat: no-repeat; padding-left: 40px; overflow: hidden; }
+	img[src$="minigame/a6.gif"] { display: inline-block; width: 0px; height: 40px; background: url(images/Runenpuzzel/6.png); background-repeat: no-repeat; padding-left: 40px; overflow: hidden; }
+/*FRAME FUNCTION*/
+	.link{border-collapse: separate;top:-2px;margin: 0 auto;position:absolute;left :-2px;}
+	.link tr {background-color: #4F4F4F;}
+	.link td {padding: 2px; border: 1px solid #666666;white-space:nowrap;font-size : 9px;text-align:center;}
+/*Worldsay ausblenden*/
+/*Worldsay gelb*/
+/*
+p.worldsay table tr[bgcolor="#FFDA47"] {display:none;}
+p.worldsay table tr[bgcolor="#FFDA47"] td {display:none;}
+*/
+/* worldsay pink */
+/*
+p.worldsay table tr[bgcolor="#FFAEA1"] {display:none;}
+p.worldsay table tr[bgcolor="#FFAEA1"] td {display:none;}
+*/
+/* worldsay orange */
+/*
+p.worldsay table tr[bgcolor="#F8A370"] {display:none;}
+p.worldsay table tr[bgcolor="#F8A370"] td {display:none;}
+*/
+
+/* worldsay blau */
+/*p.worldsay table tr[bgcolor="#8B3A62"] {display:none;}
+p.worldsay table tr[bgcolor="#8B3A62"] td {display:none;}*/
+/*BY Incognito */
+/*#filterrow { display: none; }*/
+/*Items*/
+a[href*="profil.php?action=skip"]:before { content: url(images/check.png); padding-right: 2px; }
+
+
+/* ================================================================= */
+/* > Menu-Frame */
+/*
+.framemenubg { font-size: 0px; color: #4F4F4F; background-color: #333333;}
+.framemenubg:before { content: ""; display: block; margin: 43px 0px 0px 80px; color: #4F4F4F; width: 118px; height: 13px; background: #ad9b87; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+.framemenubg a { position: absolute; font-size: 1px; color: #4F4F4F; !important; border: 1px solid #4F4F4F; opacity: 0.80; line-height: 200%; white-space: nowrap; } 
+.framemenubg a:hover { text-decoration: none; opacity: 1.00; }
+.framemenubg a:hover:after { display: block; color: #000000; font-size: 11px; line-height: 100%; white-space: nowrap;}
+.framemenubg div[align="center"] { position: absolute; top: 0px; left: 0px; text-align: left !important; height: 65px; width: 280px; color: #4F4F4F; }
+*/
+
+/* > > Symbole im Menu-Frame */
+/*
+.framemenubg a[href*="reload=true"] { left: 8px; top: 1px; width: 26px; height: 34px; background: url(images/menue/menu1.png) no-repeat 1px 2px; padding-left: 6px; border-right: 0px; -moz-border-radius-topleft: 6px; -moz-border-radius-bottomleft: 6px; -webkit-border-top-left-radius: 6px; -webkit-border-bottom-left-radius: 6px; }
+.framemenubg a[href*="reload=true"]:hover:after { content: "Aktualisieren"; margin: 40px 0px 0px 88px; }
+.framemenubg a[href*="profil.php"] { left: 41px; top: 1px; width: 33px; height: 34px; background: url(images/menue/menu2.png) no-repeat 1px 2px; border-left: 0px; border-right: 0px; }
+.framemenubg a[href*="profil.php"]:hover:after { content: "Einstellungen"; margin: 40px 0px 0px 60px; }
+.framemenubg a[href*="friends.php"] { left: 74px; top: 1px; width: 33px; height: 34px; background: url(images/menue/menu3.png) no-repeat 1px 2px; border-left: 0px; border-right: 0px; }
+.framemenubg a[href*="friends.php"]:hover:after { content: "Freunde"; margin: 40px 0px 0px 43px; }
+.framemenubg a[href*="stats.php"] { left: 107px; top: 1px; width: 33px; height: 34px; background: url(images/menue/menu4.png) no-repeat 1px 2px; border-left: 0px; border-right: 0px; }
+.framemenubg a[href*="stats.php"]:hover:after { content: "Statistik"; margin: 40px 0px 0px 10px; }
+.framemenubg a[href*="action=archoverview"] { left: 140px; top: 1px; width: 33px; height: 34px; background: url(images/menue/menu5.png) no-repeat 1px 2px; border-left: 0px; border-right: 0px; }
+.framemenubg a[href*="action=archoverview"]:hover:after { content: "Archiv"; margin: 40px 0px 0px -17px; }
+.framemenubg a[href*="statsmap.php"] { left: 173px; top: 1px; width: 33px; height: 34px; background: url(images/menue/menu6.png) no-repeat 1px 2px; border-left: 0px; border-right: 0px; }
+.framemenubg a[href*="statsmap.php"]:hover:after { content: "Karte"; margin: 40px 0px 0px -48px; }
+.framemenubg a[href*="support.php"] { left: 206px; top: 1px; width: 33px; height: 34px; background: url(images/menue/menu7.png) no-repeat 1px 2px; border-left: 0px; border-right: 0px; }
+.framemenubg a[href*="support.php"]:hover:after { content: "Support"; margin: 40px 0px 0px -89px; }
+.framemenubg a[href*="logout.php"] { left: 239px; top: 1px; width: 32px; height: 34px; background: url(images/menue/menu8.png) no-repeat 1px 2px; border-left: 0px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; }
+.framemenubg a[href*="logout.php"]:hover:after { content: "Logout"; margin: 40px 0px 0px -118px; }
+.framemenubg a[href*="http://forum.freewar.de/"] { right: 8px; bottom: 5px; width: 23px; height: 17px; background: url(images/menue/menu9.png) no-repeat 3px 1px; padding: 0px 3px 1px 0px; }
+.framemenubg a[href*="http://forum.freewar.de/"]:hover:after { content: "Forum"; margin: 1px 0px 0px -123px; }
+.framemenubg a[href*="admin.php"] { right: 38px; bottom: 5px; width: 20px; height: 17px; background: url(images/menue/menu10.png) no-repeat 3px 1px; padding: 0px 3px 1px 0px; -moz-border-radius: 6px; -webkit-border-radius: 6px; opacity: 1.00; }
+.framemenubg a[href*="admin.php"]:hover:after { content: "Admin"; margin: 1px 0px 0px -98px; }
+.framemenubg a[href*="showallmsgs=1"] { position: static; display: block; color: #ffffff !important; width: 10px; margin: 42px 0px 0px -25px; background: transparent !important; opacity: 1.00; }
+.framemenubg a[href*="showallmsgs=1"]:hover:after { content: "Neue Nachricht"; display: block; margin-left: 124px; }
+.framemenubg a[href*="showallmsgs=1&zeromsg=1"] { position: absolute; left: 8px; bottom: 5px; color: #ffffff !important; width: 8px; height: 18px; background: url(images/menue/menu11.png) no-repeat 3px 1px #ffffff !important; margin-left: 0px; padding: 0px 2px 0px 25px; border: 1px solid #ffffff; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+.framemenubg a[href*="showallmsgs=1&zeromsg=1"]:before { content: "0"; display: block; color: #000000 !important; font-size: 11px; margin-bottom: 25px; padding: 3px 0px 0px 2px; line-height: 100%; }
+.framemenubg a[href*="showallmsgs=1&zeromsg=1"]:hover:after { content: "Keine Nachricht"; margin: -38px 0px 0px 64px; }
+.framemenubg blink { position: absolute; left: 8px; bottom: 5px; font-size: 11px; color: #D20000; height: 14px; background: url(images/menue/menu12.png) no-repeat 3px 1px #ffffff; padding: 3px 2px 1px 25px; border: 1px solid #ffffff; line-height: 100%; text-decoration: blink; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+*/

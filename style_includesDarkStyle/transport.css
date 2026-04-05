@@ -1,0 +1,80 @@
+/* CODE VTI-KOMPONENTE */ 
+select[name="z_pos_id"] { color:#FFFFFF;height: 19px; width: 225px; }/*
+select[name="z_pos_id"] > option:hover { height: 25px; padding-left: 30px; }
+select[name="z_pos_id"] > option:hover:after { display: block; margin-top: -2px; font-size: 10px; }
+select[name="checkid"] > option:hover, select[name="target_id"] > option:hover, select[name="tube"] > option:hover, select[name*="anz"] > option:hover, select[name="filtercat"] > option:hover, select[name="world"] > option:hover { background: none !important; }
+select[name="checkid"] > option:hover:after, select[name="target_id"] > option:hover:after, select[name="tube"] > option:hover:after, select[name*="anz"] > option:hover:after, select[name="filtercat"] > option:hover:after, select[name="world"] > option:hover:after { display: none !important; }
+*/
+/* > gepresste Zk; große Zk; kleine Zk; Schattenfluegel; Nebel der Teleportation */
+	select[name="z_pos_id"] option[value="2"]{display :block;color:#FFFFFF;background : url(../images/vti/a1.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="68"]{display :block;color:#FFFFFF;background : url(../images/vti/a2.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="73"]{display :block;color:#FFFFFF;background : url(../images/vti/a3.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="87"]{display :block;color:#FFFFFF;background : url(../images/vti/a4.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="110"]{display :block;color:#FFFFFF;background : url(../images/vti/a5.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="169"]{display :block;color:#FFFFFF;background : url(../images/vti/a6.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="290"]{display :block;color:#FFFFFF;background : url(../images/vti/a7.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="387"]{display :block;color:#FFFFFF;background : url(../images/vti/a8.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="437"] {display :block;color:#FFFFFF;background : url(../images/vti/a9.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="538"] {display :block;color:#FFFFFF;background : url(../images/vti/a10.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="816"] {display :block;color:#FFFFFF;background : url(../images/vti/a11.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="884"] {display :block;color:#FFFFFF;background : url(../images/vti/a12.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="988"] {display :block;color:#FFFFFF;background : url(../images/vti/a13.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1079"] {display :block;color:#FFFFFF;background : url(../images/vti/a14.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1321"] {display :block;color:#FFFFFF;background : url(../images/vti/a15.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1715"] {display :block;color:#FFFFFF;background : url(../images/vti/a16.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+/* > gelbe Zk; geklebte, gelbe Zk */
+	select[name="z_pos_id"] option[value="227"] {display :block;color:#FFFFFF;background : url(../images/vti/b1.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="244"] {display :block;color:#FFFFFF;background : url(../images/vti/b2.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="377"] {display :block;color:#FFFFFF;background : url(../images/vti/b3.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1204"] {display :block;color:#FFFFFF;background : url(../images/vti/b4.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1366"] {display :block;color:#FFFFFF;background : url(../images/vti/b5.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="3164"] {display :block;color:#FFFFFF;background : url(../images/vti/b6.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+/* > Portal(-maschine) */
+	select[name="z_pos_id"] option[value="2463"]{display :block;color:#FFFFFF;background : url(../images/vti/c1.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2609"]{display :block;color:#FFFFFF;background : url(../images/vti/c2.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="3013"]{display :block;color:#FFFFFF;background : url(../images/vti/c3.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2113"]{display :block;color:#FFFFFF;background : url(../images/vti/c4.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1059"]{display :block;color:#FFFFFF;background : url(../images/vti/c5.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1581"]{display :block;color:#FFFFFF;background : url(../images/vti/c6.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2068"]{display :block;color:#FFFFFF;background : url(../images/vti/c7.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1766"]{display :block;color:#FFFFFF;background : url(../images/vti/c8.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2398"]{display :block;color:#FFFFFF;background : url(../images/vti/c9.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1813"]{display :block;color:#FFFFFF;background : url(../images/vti/c10.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1453"]{display :block;color:#FFFFFF;background : url(../images/vti/c11.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2216"]{display :block;color:#FFFFFF;background : url(../images/vti/c12.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1229"]{display :block;color:#FFFFFF;background : url(../images/vti/c13.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="3098"]{display :block;color:#FFFFFF;background : url(../images/vti/c14.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2830"]{display :block;color:#FFFFFF;background : url(../images/vti/c15.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1749"]{display :block;color:#FFFFFF;background : url(../images/vti/c16.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1606"]{display :block;color:#FFFFFF;background : url(../images/vti/c17.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2350"]{display :block;color:#FFFFFF;background : url(../images/vti/c18.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="3743"]{display :block;color:#FFFFFF;background : url(../images/vti/fes57.jpg); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	/*Untergrund*/
+	select[name="z_pos_id"] option[value="140"]{display :block;color:#FFFFFF;background : url(../images/vti/d1.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="3038"]{display :block;color:#FFFFFF;background : url(../images/vti/d2.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="3519"]{display :block;color:#FFFFFF;background : url(../images/vti/d3.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="2645"]{display :block;color:#FFFFFF;background : url(../images/vti/d4.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+/* Stab des Handels */
+	select[name="z_pos_id"] option[value="31"]{display :block;color:#FFFFFF;background : url(../images/vti/e1.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1019"]{display :block;color:#FFFFFF;background : url(../images/vti/e2.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1363"]{display :block;color:#FFFFFF;background : url(../images/vti/e3.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1403"]{display :block;color:#FFFFFF;background : url(../images/vti/e4.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+	select[name="z_pos_id"] option[value="1846"]{display :block;color:#FFFFFF;background : url(../images/vti/e5.png); min-height:24px;background-position:left;background-repeat: no-repeat;text-align:center;}
+/* Ring des Sandwindes */
+option[value="288"]:hover { color:#FFFFFF;background: url(../images/vti/f1.png) no-repeat 2px 0px; }
+option[value="288"]:hover:after { color:#FFFFFF;content: "(Position X: 98 Y: 120)"; }
+option[value="972"]:hover { color:#FFFFFF;background: url(../images/vti/f2.png) no-repeat 2px 0px; }
+option[value="972"]:hover:after { color:#FFFFFF;content: "(Position X: 98 Y: 81)"; }
+option[value="1443"]:hover { color:#FFFFFF;background: url(../images/vti/f3.png) no-repeat 2px 0px; }
+option[value="1443"]:hover:after { color:#FFFFFF;content: "(Position X: 121 Y: 112)"; }
+option[value="1547"]:hover { color:#FFFFFF;background: url(../images/vti/f4.png) no-repeat 2px 0px; }
+option[value="1547"]:hover:after { color:#FFFFFF;content: "(Position X: 72 Y: 85)"; }
+option[value="1612"]:hover { color:#FFFFFF;background: url(../images/vti/f5.png) no-repeat 2px 0px; }
+option[value="1612"]:hover:after { color:#FFFFFF;content: "(Position X: 123 Y: 92)"; }
+option[value="1762"]:hover { color:#FFFFFF;background: url(../images/vti/f6.png) no-repeat 2px 0px; }
+option[value="1762"]:hover:after { color:#FFFFFF;content: "(Position X: 58 Y: 107)"; }
+option[value="2014"]:hover { color:#FFFFFF;background: url(../images/vti/f7.png) no-repeat 2px 0px; }
+option[value="2014"]:hover:after { color:#FFFFFF;content: "(Position X: 65 Y: 96)"; }
+/* Scheibe der Kampfgebiete */
+	option[value="2039"]:hover { color:#FFFFFF;background: url(../images/vti/g1.png) no-repeat 2px 0px; }
+	option[value="2039"]:hover:after { color:#FFFFFF;content: "(Position X: -1298 Y: -1396)"; }

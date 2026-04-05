@@ -1,0 +1,138 @@
+@import url('http://file1.npage.de/005000/36/html/zustandhaltbarkeitsanzeigen_styleaddon.css');
+
+/* Freewar.de StyleSheet Mittelalter Black v1.0 - (C) 2008 - Aenderungen vorbehalten */
+/* global */
+p,ul,ol,div,td,span,
+layer,table,body	{ font-family: Arial, helvetica, sans-serif; font-size: 12px; color: #DDDDDD; }
+p 					{ margin: 0px; padding: 0px; }
+
+/* body */
+body 				{ background-color: #000000; margin: 0px; }
+
+/* table */
+table 				{ border:0px; border-collapse: collapse; } /* cellspacing & cellpadding & border =0 no longer needed
+td 					{ padding:0px; margin:0px; }
+
+/* scrollbars */
+/* body, textarea 		{ scrollbar-base-color:#BBBBBB; scrollbar-3dlight-color:#FFFFFF; scrollbar-arrow-color:#007F9F; scrollbar-darkshadow-color:#999999; scrollbar-face-color:#D5D5D5; scrollbar-highlight-color:#FFFFFF; scrollbar-shadow-color:#636363; scrollbar-track-color:#F5F5F5; } */
+
+/* links */
+a:link { color:#AAAAAA; text-decoration:none; font-weight:bold; }
+a:visited { color:#AAAAAA; text-decoration:none; font-weight:bold; }
+a:active { color:#CFCFCF; text-decoration:hover; font-weight:bold; }
+a:hover  { color:#CFCFCF; text-decoration:underline; font-weight:bold; }
+
+/* fonts */
+h1 { font-size:12px; font-weight:bold; margin-bottom: 0px;}
+.medium { font-size:11px; }
+.small { font-size:10px; }
+
+/* colors */
+.fontcolor { color: #DDDDDD; }
+.white { color: #000000; }
+
+/* bgcolors */
+.body { background-color: #000000; }
+.divider { background-color: #555555; }
+.outline { background-color: #999999; }
+.menubg	{ background-color: #0E0E0E; }
+
+.brightbg	{ background-color: #1A1A1A; }
+.verybrightbg	{ background-color: #111111; }
+.reallybrightbg	{ background-color: #0A0A0A; }
+
+
+.whitebg { background-color: #000000; }
+.blackbg { background-color: #FFFFFF; }
+.brownbg { background-color: #E1D8D1; }
+
+/* forms */
+.registerinput { width: 100%; font-size: 10px; }
+.registersubmit { font-size: 10px; }
+.logininput { width: 100%; font-size: 10px; }
+.loginsubmit { width: 100%; font-size: 10px; }
+
+/* forms */
+.input 				{ font-size: 10px; color: #CACACA; background-color: #00132C; border: 1px solid #37ABDB; }
+.submitsagen 		{ font-size: 10px; font-weight: bold; color: #000000; width: 80px; margin-left: 1px; margin-right: 2px; }
+.submitschreien 	{ font-size: 10px; font-weight: bold; color: #6AA7E7; width: 80px; margin-right: 2px; }
+.submitclan 		{ font-size: 10px; font-weight: bold; color: #C75A50; width: 80px; margin-right: 2px; }
+.submitworldsay 	{ font-size: 10px; font-weight: bold; color: #000000; width: 80px; margin-right: 2px; }
+.submitwhisper { font-size: 10px; font-weight: bold; color: #006600; width: 80px; margin-left: 1px; margin-right: 2px; }
+textarea			{ font-size: 12px; background-color: #FFECD3; border: 1px solid #C85424; }
+select 				{ font-size: 11px; background-color: #DBEBEF; }
+
+
+/* banner stuff */
+.bannerad { border: 1px solid #C85424; }
+
+
+
+/* text classes */
+.chattext { color: #FFFFFF; font-size: 13px; }
+.chattextscream { color: #6AA7E7; font-size: 13px; }
+.chattextclan { color: #C75A50; font-size: 13px; }
+.chattextinfo { color: #BD8E63; font-size: 13px; }
+.chattextworldsay { color: #000000; background-color: #C1CEF9; font-size: 13px; }
+.chattextwhisper { color: #006600; font-size: 13px; }
+.healthmed { color: #FF8000; }
+.healthok { color: #309000; }
+.healthcritical { color: #D20000; }
+.chatpics { display: none }
+
+/* frames bg */
+.framebannerbg { background-color: #000000; background-image: url(mittelalter82.jpg); background-repeat: no-repeat; border-bottom: 1px solid #000000; }
+.framechatformbg { background-image: url(mittelalter32.jpg); }
+.framechattextbg { background-color: #000000; margin: 10px; margin-top: 5px; margin-bottom: 5px; margin-right: 5px; }
+.framemainbg { margin: 10px;  background-image: url(mittelalter62.jpg); background-repeat: repeat-y; background-position: right; }
+.frameitembg { margin: 10px; background-color: #DCDCDC; background-image: url(mittelalter92.jpg); }
+.framemapbg { margin: 10px; margin-top: 3px; background-color: #C1BDBA; background-image: url(mittelalter92.jpg); }
+.framemenubg { background-color: #C1BDBA; background-image: url(mittelalter92.jpg); }
+
+/* main module */
+td.mainheader { font-size: 35px; background-image: url(mittelalter12.jpg); border-bottom: 2px solid #999999; height: 55px; }
+table.areadescription { border: 1px solid #999999; background-color: #000000; width: 100%; }
+td.areadescription { padding: 5px; background-image: url(mittelalter22.jpg); background-repeat: no-repeat; }
+.imageborder { border: 1px solid #999999; background-color: #999999; margin-right: 10px; margin-bottom: 0px;}
+p.maincaption { font-weight: bold; font-size: 30px; padding: 2px; padding-left: 5px; background-image: url(mittelalter12.jpg); }
+p.maincaption2 { font-weight: bold; font-size: 12px; padding: 2px; padding-left: 5px; background-image: url(mittelalter102.jpg); background-repeat: no-repeat; }
+p.maindesc1 { padding: 2px; padding-left: 5px; background-color: #222222; border: 1px solid #29343D; border-top: 1px; width: 300px; }
+p.maindesc2 { border: 1px solid #999999; background-color: #222222; width: 100%; }
+p.listusersrow { padding: 1px; padding-left: 5px; background-color: #222222; border: 0px solid #29343D; border-top: 0px; }
+p.listplaceitemsrow { padding: 1px; padding-left: 5px; background-color: #222222; border: 0px solid #29343D; border-top: 0px; }
+
+/* item module */
+p.listcaption { border: 1px solid #A2A09F; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(mittelalter42.jpg); }
+p.listsubcaption { border-bottom: 1px solid #29343D; }
+p.listrow { padding: 1px; padding-left: 5px; background-color: #55555; border: 0px solid #29343D; border-top: 0px; }
+p.listitemrow { padding: 2px; padding-left: 5px; background-color: #55555; border: 1px solid #29343D; border-top: 0px; border-top: 1px solid #29343D; margin-bottom: 3px;  background-image: url(mittelalter52.jpg); }
+p.listmainrow { padding: 2px; min-height: 55px; padding-left: 5px; background-color: #55555; border: 1px solid #29343D; border-top: 0px; }
+.valueincreased { font-weight: bold; color: #ff0000; } 
+.itemamount { font-weight: bold; color: #751700; }
+.itemequipped { font-weight: bold; color: #ff0000; }
+.itemmagic { font-weight: bold; color: #008800; }
+.iteminventorypics { display: none }
+
+/* map module */
+p.positiontext { background-color: #BBBBBB; border: 1px solid #555555; color: #ffffff; font-size: 10px; margin-left: 0px; margin-right: 0px; margin-bottom: 3px; padding-left: 0px; padding-right: 0px; width: 100%; background-image: url(mittelalter42.jpg); }
+
+/* main module */
+p.personlistcaption { border: 1px solid #A2A09F; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(mittelalter72.jpg); }
+p.itemlistcaption { border: 1px solid #A2A09F; font-weight: bold; padding: 2px; padding-left: 5px; background-image: url(mittelalter72.jpg); }
+
+
+/* misc */
+.borderbg { background-color: #D0CFCF; }
+
+img.nocango {background: transparent;}
+a.nocango {background: #transparent; height: 50px; width: 50px; border-width: 0; display: block;}
+a.nocango:hover {background: url(nocango.gif) top left no-repeat; cursor: default;}
+
+/* Hintergrund */
+p.worldsay table tr {
+  background-color:#237AD7;
+}
+/* Schriftfarbe */
+p.worldsay table tr td {
+  color:#000000;
+}

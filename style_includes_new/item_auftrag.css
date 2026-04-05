@@ -1,0 +1,65 @@
+/*Absperrband made by Werwolf*/
+.itemname[onmouseover^='tt("Absperrband"']{color:#FF8000;}
+/*Alter Schreibstift made by Werwolf*/
+.itemname[onmouseover^='tt("Alter Schreibstift"']{color:#FF8000;}
+/*Angel des Auftragshauses made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Angel des Auftragshauses"']{color:#FF8000;}
+/*Auffangschale made by Werwolf*/
+.itemname[onmouseover^='tt("Auffangschale"']{color:#FF8000;}
+/*Auffangschale mit Blut made by Werwolf*/
+.itemname[onmouseover^='tt("Auffangschale mit Blut"']{color:#FF8000;}
+/*Auftragsdiebstahlzauber made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Auftragsdiebstahlzauber"']{color:#FF8000;}
+/*Auftragsschutz made by Werwolf*/
+.itemname[onmouseover^='tt("Auftragsschutz"']{color:#FF8000;}
+/*Blaukornsonnenblume made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Blaukornsonnenblume"']{color:#FF8000;}
+/*Drucknuss made by Werwolf*/
+.itemname[onmouseover^='tt("Drucknuss"']{color:#FF8000;}
+/*Gesichtscreme made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Gesichtscreme"']{color:#FF8000;}
+/*Gew�rzbohnen made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Gew�rzbohnen"']{color:#FF8000;}
+/*Gift gegen Einfl�gler made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Gift gegen Einfl�gler"']{color:#FF8000;}
+/*giftiger M�ll made by Werwolf*/
+.itemname[onmouseover^='tt("giftiger M�ll"']{color:#FF8000;}
+/*Goldw�schesieb made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Goldw�schesieb"']{color:#FF8000;}
+/*Ingerium made by Werwolf*/
+.itemname[onmouseover^='tt("Ingerium"']{color:#FF8000;}
+/*Koloa-Bohne made by Werwolf*/
+.itemname[onmouseover^='tt("Koloa-Bohne"']{color:#FF8000;}
+/*K�hlbox mit Gewebeproben made by Werwolf*/
+.itemname[onmouseover^='tt("K�hlbox mit Gewebeproben"']{color:#FF8000;}
+/*Phasenkugel made by Werwolf*/
+.itemname[onmouseover^='tt("Phasenkugel"']{color:#FF8000;}
+.itemname[onmouseover^='tt("Phasenkugel"']:after {content :' (70gm)'; color:#000000; font-size : 9px;}
+/*Hirtenstab (Das Tal der Ruinen) made by Werwolf*/
+.itemname[onmouseover^='tt("Hirtenstab (Das Tal der Ruinen)"']{color:#FF8000;}
+.itemname[onmouseover^='tt("Hirtenstab (Das Tal der Ruinen)"']:after {content :' (2000gm)'; color:#000000; font-size : 9px;}
+/*Schafscherger�t made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Schafscherger�t"']{color:#FF8000;}
+/*schwacher Tarnzauber made by Werwolf*/
+.itemname[onmouseover^='tt("schwacher Tarnzauber"']{color:#FF8000;}
+/*Stahlk�fig made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Stahlk�fig"']{color:#FF8000;}
+/*Steak mit Augen made by Werwolf*/
+.itemname[onmouseover^='tt("Steak mit Augen"']{color:#FF8000;}
+.itemname[onmouseover^='tt("Steak mit Augen"']:after {content :' (43gm)'; color:#FF8000; font-size : 9px;}
+/*Tierfutter made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Tierfutter"']{color:#FF8000;}
+/*toter Gewebewurm made by Quetschenpaua*/
+.itemname[onmouseover^='tt("toter Gewebewurm"']{color:#FF8000;}
+/*versiegelter Brief made by Quetschenpaua*/
+.itemname[onmouseover^='tt("versiegelter Brief"']{color:#FF8000;}
+/*wei�e Laubnelke made by Quetschenpaua*/
+.itemname[onmouseover^='tt("wei�e Laubnelke"']{color:#FF8000;}
+/*wei�e Rose made by Werwolf*/
+.itemname[onmouseover^='tt("wei�e Rose"']{color:#FF8000;}
+/*Wetterkontroll-Kristall made by Quetschenpaua*/
+.itemname[onmouseover^='tt("Wetterkontroll-Kristall"']{color:#FF8000;}
+/*Spitzhacke made by Werwolf*/
+.itemname[onmouseover^='tt("Spitzhacke"']{color:#FF8000;}
+.itemname[onmouseover^='tt("Spitzhacke"']:after {content :' (48gm)'; color:#FF8000; font-size : 9px;}
+

@@ -1,0 +1,796 @@
+/*Vorlage*/
+/*
+Name made by Name | Datum
+.listusersrow a[href$='watchuser&act_user_id=']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=']:after{ content:' (C)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=']:after{ content:' (C)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=']:hover:after{ content:' (Charakterfähigkeit(Stufe))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=']:hover:after{ content:' (Charakterfähigkeit(Stufe))'; color:#339966;}
+*/
+/*22 Giftzwerg made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=22']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=22']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=22']:after{ content:' (P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=22']:after{ content:' (P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=22']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=22']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+/*30 wiesel made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=30']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=30']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=30']:after{ content:' (V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=30']:after{ content:' (V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=30']:hover:after{ content:' (Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=30']:hover:after{ content:' (Verlängerer)'; color:#339966;}
+/*125 Geisterschaf made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=125']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=125']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=125']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=125']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=125']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=125']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*115 Papa Max made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=115']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=115']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=115']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=115']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=115']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=115']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*225 deathwarrior made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=225']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=225']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=225']:after{ content:' (K,P,V,Z,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=225']:after{ content:' (K,P,V,Z,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=225']:hover:after{ content:' (Kopierer,Pusher,Verlängerer,Zaubertruhe(??),Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=225']:hover:after{ content:' (kopierer,Pusher,Verlängerer,Zaubertruhe(??),Öl-Händler)'; color:#339966;}
+/*238 JogiBär made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=238']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=238']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=238']:after{ content:' (P,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=238']:after{ content:' (P,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=238']:hover:after{ content:' (Pusher,Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=238']:hover:after{ content:' (Pusher,Zaubertruhe(??))'; color:#339966;}
+/*336 Psychoschaf made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=336']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=336']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=336']:after{ content:' (K,L,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=336']:after{ content:' (K,L,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=336']:hover:after{ content:' (Kopierer,Labortechnik(15),Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=336']:hover:after{ content:' (Kopierer,Labortechnik(15),Verlängerer)'; color:#339966;}
+/*508 made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=508']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=508']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=508']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=508']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=508']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=508']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*643 Diddy Kong made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=643']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=643']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=643']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=643']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=643']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=643']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*652 Lord Draco made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=652']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=652']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=652']:after{ content:' (DS,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=652']:after{ content:' (DS,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=652']:hover:after{ content:' (Diebstahl-Schützer,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=652']:hover:after{ content:' (Diebstahl-Schützer,Öl-Händler)'; color:#339966;}
+/*681 Aragon made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=681']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=681']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=681']:after{ content:' (K,L)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=681']:after{ content:' (K,L)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=681']:hover:after{ content:' (Kopierer,Labortechnik)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=681']:hover:after{ content:' (Kopierer,Labortechnik)'; color:#339966;}
+/*739 Engelsklang made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=739']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=739']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=739']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=739']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=739']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=739']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*757 Nexiz made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=739']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=739']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=757']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=757']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=757']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=757']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*884 Araehl made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=884']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=884']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=884']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=884']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=884']:hover:after{ content:' (Zaubertruhe(40))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=884']:hover:after{ content:' (Zaubertruhe(40))'; color:#339966;}
+/*939 misses b made by Werwolf | 26.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=939']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=939']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=939']:after{ content:' (K,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=939']:after{ content:' (K,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=939']:hover:after{ content:' (Kopierer,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=939']:hover:after{ content:' (Kopierer,Öl-Händler)'; color:#339966;}
+/*996 Inkognito made by Inkognito*/
+.listusersrow a[href$='watchuser&act_user_id=996']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=996']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=996']:after{ content:' * (V)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=996']:after{ content:' * (V)'; color:#FF6600;}
+.listusersrow a[href$='watchuser&act_user_id=996']:hover:after{ content:' STYLE-Verwalter (Verlängerer)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=996']:hover:after{ content:' STYLE-Verwalter (Verlängerer)'; color:#FF6600;}
+/*1028 Herzensbrecher made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1028']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1028']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1028']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1028']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1028']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1028']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*1149 DragonKnight made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1149']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1149']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1149']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1149']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1149']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1149']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*1187 Teddy made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1187']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1187']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1187']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1187']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1187']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1187']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*1290 ShakiBämm-Bämm made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1290']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1290']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1290']:after{ content:' (P,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1290']:after{ content:' (P,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1290']:hover:after{ content:' (Pusher,Zaubertruhe(40))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1290	']:hover:after{ content:' (Pusher,Zaubertruhe(40))'; color:#339966;}
+/*1425 Tayflore made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1425']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1425']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1425']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1425']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1425']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1425']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*1482 Tialril made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1482']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1482']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1482']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1482']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1482']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1482']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*1511 Xenox made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1511']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1511']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1511']:after{ content:' (K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1511']:after{ content:' (K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1511']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1511']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+/*1634 Levia made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1634']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1634']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1634']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1634']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1634']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1634']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*1745 Herbstwind made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1745']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1745']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1745']:after{ content:' (K)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1745']:after{ content:' (K)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1745']:hover:after{ content:' (Kopierer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1745']:hover:after{ content:' (Kopierer)'; color:#339966;}
+/*1803 axo made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1803']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1803']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1803']:after{ content:' (H,V,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1803']:after{ content:' (H,V,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1803']:hover:after{ content:' (Handwerkskunst(??),Verlängerer,Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1803']:hover:after{ content:' (Handwerkskunst(??),Verlängerer,Zaubertruhe(??))'; color:#339966;}
+/*1856 Spitfire made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1856']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1856']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1856']:after{ content:' (K,P;Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1856']:after{ content:' (K,P,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1856']:hover:after{ content:' (Kopierer,Pusher,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1856']:hover:after{ content:' (Kopierer,Pusher,Öl-Händler)'; color:#339966;}
+/*1911 King Or made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1911']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1911']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1911']:after{ content:' (L)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1911']:after{ content:' (L)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1911']:hover:after{ content:' (Labortechnik)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1911']:hover:after{ content:' (Labortechnik)'; color:#339966;}
+/*1982 La Lumina made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=1982']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1982']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1982']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1983']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=1982']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=1982']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*2009 -pumpkin- made by Werwolf 26.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2009']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2009']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2009']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2009']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2009']:hover:after{ content:' (Zaubertruhe(40), E auf Probe)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2009']:hover:after{ content:' (Zaubertruhe(40),E auf Probe)'; color:#339966;}
+/*2149 Thor made by Werwolf | 27.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2149']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2149']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2149']:after{ content:' * (K)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=2149']:after{ content:' * (K)'; color:#FF6600;}
+.listusersrow a[href$='watchuser&act_user_id=2149']:hover:after{ content:' STYLE-Grafiker (Kopierer)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=2149']:hover:after{ content:' STYLE-Grafiker (Kopierer)'; color:#FF6600;}
+/*2265 huppi made by Inkognito*/
+.listusersrow a[href$='watchuser&act_user_id=2265']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2265']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2265']:after{ content:' S(L)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2265']:after{ content:' S(L)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2265']:hover:after{ content:' Suchti(Labortechnik(24+))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2265']:hover:after{ content:' Suchti(Labortechnik(24+))'; color:#339966;}
+/*2274 Einstiegsdroge made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2274']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2274']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2274']:after{ content:' (V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2274']:after{ content:' (V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2274']:hover:after{ content:' (Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2274']:hover:after{ content:' (Verlängerer)'; color:#339966;}
+/*2280 Giwendolin made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2280']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2280']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2280']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2280']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2280']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2280']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*2320 	Dolgthrasir made by Werwolf*/	
+.listusersrow a[href$='watchuser&act_user_id=2320']:before{ content:' '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2320']:before{ content:' '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2320']:after{ content:' * (K,P,V,Z)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=2320']:after{ content:' * (K,P,V,Z)'; color:#FF6600;}
+.listusersrow a[href$='watchuser&act_user_id=2320']:hover:after{ content:' STYLE-Designer (Kopierer,Pusher,Verlängerer,Zaubertruhe(32))'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=2320']:hover:after{ content:' STYLE-Designer (Kopierer,Pusher,Verlängerer,Zaubertruhe(32))'; color:#FF6600;}
+/*2403 Tropico made by Werwolf | 04.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2403']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2403']:before{ content:'(E) '; color:#cc0000;}
+/*2410 pEEgEE made by Werwolf | 23.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2410']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2410']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2410']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2410']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2410']:hover:after{ content:' (Zaubertruhe(4))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2410']:hover:after{ content:' (Zaubertruhe(4))'; color:#339966;}
+/*2446 Saccu made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2446']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2446']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2446']:after{ content:' (K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2446']:after{ content:' (K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2446']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2446']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+/*2517 Dönerschaf made by Werwolf*/
+.listusersrow a[href$='watchuser&act_user_id=2517']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2517']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2517']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2517']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2517']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2517']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*2724 Black Bowman made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2724']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2724']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2724']:after{ content:' (H,P,L)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2724']:after{ content:' (H,P,L)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2724']:hover:after{ content:' (Handwerkskunst(??),Pusher,Labortechnik(29))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2724']:hover:after{ content:' (Handwerkskunst(??),Pusher,Labortechnik(29))'; color:#339966;}
+/*2743 Renror Orugan made by Werwolf*/
+.listusersrow a[href$='watchuser&act_user_id=2743']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2743']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2743']:after{ content:' (DS,K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2743']:after{ content:' (DS,K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2743']:hover:after{ content:' (Diebstahl-Schützer,Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2743']:hover:after{ content:' (Diebstahl-Schützer,Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*2839 taikun made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2839']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2839']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2839']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2839']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2839']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2839']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*2903 Eventuality made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=2903']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=2903']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=2903']:after{ content:' (DS,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2903']:after{ content:' (DS,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=2903']:hover:after{ content:' (Diebstahl-Schützer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=2903']:hover:after{ content:' (Diebstahl-Schützer,Verlängerer)'; color:#339966;}
+/*3015 Werwolf made by Werwolf*/
+.listusersrow a[href$='watchuser&act_user_id=3015']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3015']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3015']:after{ content:' * (H)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=3015']:after{ content:' * (H)'; color:#FF6600;}
+.listusersrow a[href$='watchuser&act_user_id=3015']:hover:after{ content:' STYLE-Admin/Programmierer (Handwerkskunst(10))'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=3015']:hover:after{ content:' STYLE-Admin/Programmierer (Handwerkskunst(10))'; color:#FF6600;}
+/*3401 shadow of death made by Werwolf | 27.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3401']:after{ content:' (K)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3401']:after{ content:' (K)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3401']:hover:after{ content:' (Kopierer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3401']:hover:after{ content:' (Kopierer)'; color:#339966;}
+/*3449 Xavi made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3449']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3449']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3449']:after{ content:' (DS,K,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3449']:after{ content:' (DS,K,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3449']:hover:after{ content:' (Diebstahl-Schützer,Kopierer,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3449']:hover:after{ content:' (Diebstahl-Schützer,Kopierer,Öl-Händler)'; color:#339966;}
+/*3474 Ghosti made by Werwolf | 26.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3474']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3474']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3474']:after{ content:' (K,P,V, E?)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3474']:after{ content:' (K,P,V, E?)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3474']:hover:after{ content:' (Kopierer,Pusher,Verlängerer; E auf Probe)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3474']:hover:after{ content:' (Kopierer,Pusher,Verlängerer, E auf Probe)'; color:#339966;}
+/*3564 Giev Oil made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3564']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3564']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3564']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3564']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3564']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3564']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*3621 Havelock Vetinari made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3621']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3621']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3621']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3621']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3621']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3621']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+/*3758 Frazer made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3758']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3758']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3758']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3758']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3758']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3758']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*3930 Muschelknacker made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=3930']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=3930']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=3930']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3930']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=3930']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=3930']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*4285 Shivainoa made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4285']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4285']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4285']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4285']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4285']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4285']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*4326 Daath made by Dolgthrasir 03.05.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4326']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4326']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4326']:after{ content:' (P,K,E?)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4326']:after{ content:' (P,K,E?)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4326']:hover:after{ content:' (Pusher,Kopierer,E auf Probe)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4326']:hover:after{ content:' (Pusher,Kopierer,E auf Probe)'; color:#339966;}
+/*4334 Jay Esus made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4334']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4334']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4334']:after{ content:' (P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4334']:after{ content:' (P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4334']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4334']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+/*4398 Matroe Skulgra made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4398']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4398']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4398']:after{ content:' (K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4398']:after{ content:' (K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4398']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4398']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+/*4589 Memory made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4589']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4589']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4589']:after{ content:' (V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4589']:after{ content:' (V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4589']:hover:after{ content:' (Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4589']:hover:after{ content:' (Verlängerer)'; color:#339966;}
+/*4648 Chelast made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4648']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4648']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4648']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4648']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4648']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4648']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*4741 Charlie83 made by Werwolf | 23.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4741']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4741']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4741']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4741']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4741']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4741']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+/*4832 headkiller made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4832']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4832']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4832']:after{ content:' (K,P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4832']:after{ content:' (K,P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4832']:hover:after{ content:' (Kopierer,Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4832']:hover:after{ content:' (Kopierer,Pusher)'; color:#339966;}
+/*4872 Bellator made by Werwolf | 23.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4872']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=4872']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=4872']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4872']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4872']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4872']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*4882 Sleepwalker made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=4882']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4882']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=4882']:hover:after{ content:' (Kopierer,Pusher,Verlängerer(PE))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=4882']:hover:after{ content:' (Kopierer,Pusher,Verlängerer(PE))'; color:#339966;}
+/*5058 Silla made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5058']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5058']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5058']:after{ content:' (K,P,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5058']:after{ content:' (K,P,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5058']:hover:after{ content:' (Kopierer,Pusher,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5058']:hover:after{ content:' (Kopierer,Pusher,Öl-Händler)'; color:#339966;}
+/*5114 Blacküüs Fruchzzwerg made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5144']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5144']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5144']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5144']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5144']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5144']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*5144 Teddy made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5144']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5144']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5144']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5144']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5144']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5144']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*5162 Lillyfee made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5162']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5162']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5162']:after{ content:' (P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5162']:after{ content:' (P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5162']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5162']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+/*5718 Schwarzmuckel made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5718']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5718']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5718']:after{ content:' (DS,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5718']:after{ content:' (DS,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5718']:hover:after{ content:' (Diebstahl-Schützer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5718']:hover:after{ content:' (Diebstahl-Schützer,Pusher,Verlängerer)'; color:#339966;}
+/*5790 Cabal made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5790']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5790']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5790']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5790']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5790']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5790']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*5744 BloodDragon made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5744']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5744']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5744']:after{ content:' (DS,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5744']:after{ content:' (DS,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5744']:hover:after{ content:' (Diebstahl-Schützer,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5744']:hover:after{ content:' (Diebstahl-Schützer,Öl-Händler)'; color:#339966;}
+/*5958 Hellfire made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=5958']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=5958']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=5958']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5958']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=5958']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=5958']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*6105 Eli made by Werwolf | 26.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6105']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6105']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6105']:after{ content:' (Ö,E?)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6105']:after{ content:' (Ö,E?)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6105']:hover:after{ content:' (Öl-Händler,E auf Probe)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6105']:hover:after{ content:' (Öl-Händler,E auf Probe)'; color:#339966;}
+/*6212 nubcat made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6212']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6212']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6212']:after{ content:' (K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6212']:after{ content:' (K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6212']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6212']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+/*6254 Der Traumtänzer made by Werwolf | 24.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6254']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6254']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6254']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6254']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6254']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6254']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*6552 White Saint made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6552']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6552']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6552']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6552']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6552']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6552']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+/*6582 RageQuit made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6582']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6582']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6582']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6582']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6582']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6582']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*6679 Tigga made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6679']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6679']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6679']:after{ content:' (P,V,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6679']:after{ content:' (P,V,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6679']:hover:after{ content:' (Pusher,Verlängerer,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6679']:hover:after{ content:' (Pusher,Verlängerer,Öl-Händler)'; color:#339966;}
+/*6685 Aririse made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6685']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6685']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6685']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6685']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6685']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6685']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*6709 Martl liebt Kals xD made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6709']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6709']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6709']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6709']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6709']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6709']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*6790 el lazy muchacho made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6790']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6790']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6790']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6790']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6790']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6790']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*6968 el lazy muchacho made by Werwolf | 22.7.2011*/
+.listusersrow a[href$='watchuser&act_user_id=6968']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=6968']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=6968']:after{ content:' (PF,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6968']:after{ content:' (PF,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=6968']:hover:after{ content:' (Pflanzenkundler,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=6968']:hover:after{ content:' (Pflanzenkundler,Verlängerer)'; color:#339966;}
+/*7036 Icewolf89 made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7036']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7036']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7036']:after{ content:' (P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7036']:after{ content:' (P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7036']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7036']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+/*7225 Rose made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7225']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7225']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7225']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7225']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7225']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7225']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*7438 back-to-onelove made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7438']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7438']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7438']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7438']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7438']:hover:after{ content:' (Zaubertruhe(40))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7438']:hover:after{ content:' (Zaubertruhe(40))'; color:#339966;}
+/*7502 made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7502']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7502']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7502']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7502']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7502']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7502']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*7615 Ferrus Manus made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7615']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7615']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7615']:after{ content:' (P,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7615']:after{ content:' (P,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7615']:hover:after{ content:' (Pusher,Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7615']:hover:after{ content:' (Pusher,Zaubertruhe(??))'; color:#339966;}
+/*7621 Wax Tailor made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7621']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7611']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7621']:after{ content:' (K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7621']:after{ content:' (K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7621']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7621']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+/*7701 Vetter Itt made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7701']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7701']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7701']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7701']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7701']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7701']:hover:after{ content:' (Zaubertruhe(??))'; color:#339966;}
+/*7960 mister b made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=7960']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=7960']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=7960']:after{ content:' (P,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7960']:after{ content:' (P,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=7960']:hover:after{ content:' (Pusher,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=7960']:hover:after{ content:' (Pusher,Öl-Händler)'; color:#339966;}
+/*8068 Stephen Taylor made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=8068']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=8068']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=8068']:after{ content:' (P,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8068']:after{ content:' (P,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=8068']:hover:after{ content:' (Pusher,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8068']:hover:after{ content:' (Pusher,Öl-Händler)'; color:#339966;}
+/*8074 Schnapscomander made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=8074']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=8074']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=8074']:after{ content:' (K,P,V,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8074']:after{ content:' (K,P,V,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=8074']:hover:after{ content:' (Kopierer,Pusher,Verlängerer,Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8074']:hover:after{ content:' (Kopierer,Pusher,Verlängerer,Zaubtertruhe(??))'; color:#339966;}
+/*8177 Mereel made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=8177']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=8177']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=8177']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8177']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=8177']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8177']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*8694 lükibbean made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=8694']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=8694']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=8694']:after{ content:' (DS,Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8694']:after{ content:' (DS,Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=8694']:hover:after{ content:' (Diebstahl-Schützer,Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8694']:hover:after{ content:' (Diebstahl-Schützer,Öl-Händler)'; color:#339966;}
+/*8888 Exorzist made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=8888']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=8888']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=8888']:after{ content:' (DS)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8888']:after{ content:' (DS)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=8888']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=8888']:hover:after{ content:' (Diebstahl-Schützer)'; color:#339966;}
+/*9150 Arpad made by Werwolf | 22.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9150']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9150']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9150']:after{ content:' (P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9150']:after{ content:' (P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9150']:hover:after{ content:' (Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9150']:hover:after{ content:' (Pusher)'; color:#339966;}
+/*9233 Legendär made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9233']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9233']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9233']:after{ content:' (DS,P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9233']:after{ content:' (DS,P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9233']:hover:after{ content:' (Diebstahl-Schützer,Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9233']:hover:after{ content:' (Diebstahl-Schützer,Pusher)'; color:#339966;}
+/*9357 Shadowknight made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9357']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9357']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9357']:after{ content:' (L,P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9357']:after{ content:' (L,P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9357']:hover:after{ content:' (Labortechnik,Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9357']:hover:after{ content:' (Labortechnik,Pusher)'; color:#339966;}
+/*9499 Beast made by Werwolf | 23.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9499']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9499']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9499']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9499']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9499']:hover:after{ content:' (Kopierer,Pusher,Verlängerer(PE))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9499']:hover:after{ content:' (Kopierer,Pusher,Verlängerer(PE))'; color:#339966;}
+/*9667 Luigi made my Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9667']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9667']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9667']:after{ content:' (Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9667']:after{ content:' (Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9667']:hover:after{ content:' (Zaubertruhe(40;PE))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9667']:hover:after{ content:' (Zaubertruhe(40;PE))'; color:#339966;}
+/*9728 Jibbery Jeff made by Werwolf | 24.2.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9728']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9728']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9728']:after{ content:' (DS,K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9728']:after{ content:' (DS,K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9728']:hover:after{ content:' (Diebstahl-Schützer,Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=92728']:hover:after{ content:' (Diebstahl-Schützer,Kopierer,Verlängerer,)'; color:#339966;}
+/*9840 Ezreal made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=9840']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=9840']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=9840']:after{ content:' (K,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9840']:after{ content:' (K,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=9840']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=9840']:hover:after{ content:' (Kopierer,Verlängerer)'; color:#339966;}
+/*10240 Vinara made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=10240']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=10240']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=10240']:after{ content:' (P,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10240']:after{ content:' (P,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=10240']:hover:after{ content:' (Pusher,Zaubertruhe(19))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10240']:hover:after{ content:' (Pusher,Zaubertruhe(19))'; color:#339966;}
+/*10457 Cannabiss made by Dolgthrasir | 26.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=10457']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=10457']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=10457']:after{ content:' (P, E?)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10457']:after{ content:' (P, E?)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=10457']:hover:after{ content:' (Pusher, E auf Probe)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10457']:hover:after{ content:' (Pusher, E auf Probe)'; color:#339966;}
+/*10559 Black_Sunshine made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=10559']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=10559']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=10559']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10559']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=10559']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10559']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*10777 Robin von Winterau made by Werwolf | 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=10777']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=10777']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=10777']:after{ content:' (P,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10777']:after{ content:' (P,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=10777']:hover:after{ content:' (Pusher,Zaubertruhe(??))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10777']:hover:after{ content:' (Pusher,Zaubertruhe(??))'; color:#339966;}
+/*10890 Harpagus made by Dolgthrasir | 26.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=10890']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=10890']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=10890']:after{ content:'P'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10890']:after{ content:'P'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=10890']:hover:after{ content:'Pusher'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=10890']:hover:after{ content:'Pusher'; color:#339966;}
+/*11191 HuppsFan made by Werwolf | 03.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=11191']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=11191']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=11191']:after{ content:' (Ö)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11191']:after{ content:' (Ö)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=11191']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11191']:hover:after{ content:' (Öl-Händler)'; color:#339966;}
+/*11143 Hägar der Prüfer made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=11143']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=11143']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=11143']:after{ content:' (DS,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11143']:after{ content:' (DS,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=11143']:hover:after{ content:' (Diebstahl-Schützer,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11143']:hover:after{ content:' (Diebstahl-Schützer,Verlängerer)'; color:#339966;}
+/*11393 Chaosgirl made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=11393']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=11393']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=11393']:after{ content:' (P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11393']:after{ content:' (P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=11393']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=44393	']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+/*11446 Faolán Cathaír made by Werwolf | 02.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=11446']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=11446']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=11446']:after{ content:' (DS,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11446']:after{ content:' (DS,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=11446']:hover:after{ content:' (Diebstahl-Schützer,Zaubertruhe(40))'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11446']:hover:after{ content:' (Diebstahl-Schützer,Zaubertruhe(40))'; color:#339966;}
+/*11674 Jack Daniels made by Werwolf | 26.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=11674']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=11674']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=11674']:after{ content:' (K,PF,V,Z, E?)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11674']:after{ content:' (K,PF,V,Z, E?)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=11674']:hover:after{ content:' (Kopierer,Pflanzenkunde(14),Verlängerer,Zaubertruhe(6), E auf Probe)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11674']:hover:after{ content:' (Kopierer,Pflanzenkunde(14),Verlängerer,Zaubertruhe(6), E auf Probe)'; color:#339966;}
+/*11970 Istari made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=11970']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=11970']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=11970']:after{ content:' (K,P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11970']:after{ content:' (K,P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=11970']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=11970']:hover:after{ content:' (Kopierer,Pusher,Verlängerer)'; color:#339966;}
+/*12568 wchris made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=12568']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=12568']:before{ content:'(E) '; color:#cc0000;}
+/*12641 saemih made by Werwolf 06.03.2011*/
+.listusersrow a[href$='watchuser&act_user_id=12641']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=12641']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=12641']:after{ content:' (P,V)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=12641']:after{ content:' (P,V)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=12641']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=12641']:hover:after{ content:' (Pusher,Verlängerer)'; color:#339966;}
+/*12728 but alive made by Werwolf | 23.02.2011*/
+.listusersrow a[href$='watchuser&act_user_id=12728']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=12728']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=12728']:after{ content:' (DS,P)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=12728']:after{ content:' (DS,P)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=12728']:hover:after{ content:' (Diebstahl-Schützer, Pusher)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=12728']:hover:after{ content:' (Diebstahl-Schützer, Pusher)'; color:#339966;}
+/*132152 but ThugAngel96 made by Werwolf | 17.09.2016*/
+.listusersrow a[href$='watchuser&act_user_id=132152']:before{ content:'(E) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=132152']:before{ content:'(E) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=132152']:after{ content:' (K,P,V,Z)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=132152']:after{ content:' (K,P,V,Z)'; color:#339966;}
+.listusersrow a[href$='watchuser&act_user_id=132152']:hover:after{ content:' (Kopierer,Pusher,Verlängerer,Zaubertruhe(20)'; color:#339966;}
+.friendlist a[href$='watchuser&act_user_id=132152']:hover:after{ content:' (kopierer,Pusher,Verlängerer,Zaubertruhe(20)'; color:#339966;}

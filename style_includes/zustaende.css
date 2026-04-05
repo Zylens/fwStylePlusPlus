@@ -1,0 +1,33 @@
+/*Status*/
+/*
+span[title*="schnelle Bewegung"] {font-size: 0px;}
+span[title*="schnelle Bewegung"]:before{content: "(SB)";font-size:12px;font-weight: bold;}
+span[title*="Lebenspunkte +"] {font-size: 0px;}
+span[title*="Lebenspunkte +"]:before {content: "(L+)";font-size:12px;font-weight: bold;}
+span[title*="Lebenspunkte -"] {font-size: 0px;color:#D20000;}
+span[title*="Lebenspunkte -"]:before {content: "(L-)";font-size:12px;font-weight: bold;}
+span[title*="Kampfunfähig"] {font-size: 0px;color:#D20000;}
+span[title*="Kampfunfähig"]:before {content: "(KU)";font-size:12px;font-weight: bold;}
+span[title*="Vergiftung"] {font-size: 0px;color:#D20000;}
+span[title*="Vergiftung"]:before {content: "(VG)";font-size:12px;font-weight: bold;}
+span[title*="Tarnung"] {font-size: 0px;}
+span[title*="Tarnung"]:after {content: "(TZ)";font-size:12px;font-weight: bold;}
+span[title*="Beutezauber"] {font-size: 0px;}
+span[title*="Beutezauber"]:before{content:"(BZ)";font-size:12px;font-weight: bold;}
+span[title*="Stärke +"] {font-size: 0px;}
+span[title*="Stärke +"]:before{content: "(S+)";font-size:12px;font-weight: bold;}
+span[title*="Stärke -"] {font-size: 0px;color:#D20000;}
+span[title*="Stärke -"]:before { content: "(S-)";font-size:12px;font-weight: bold;}
+span[title*="Verräter"] {font-size: 0px;}
+span[title*="Verräter"]:before {content: "(VR)";font-size:12px;font-weight: bold;}
+span[title*="Heilkraft"] {font-size: 0px;}
+span[title*="Heilkraft"]:before { content: "(HK)";font-size:12px;font-weight: bold;}
+span[title*="Feueröl"] {font-size: 0px;color:#D20000;}
+span[title*="Feueröl"]:before {content: "(FÃ–)";font-size:12px;font-weight: bold;}
+span[title*="Schutz"] {font-size: 0px; }
+span[title*="Schutz"]:before {content:"(SZ)" ;font-size:12px;font-weight: bold;}
+*/
+/*Zustände blinken*/
+span[title*="(2 Minuten)"] { color:#D20000; text-decoration:blink;}
+span[title*="(1 Minuten)"] { color:#D20000; text-decoration:blink;}
+span[title*="(0 Minuten)"] { color:#D20000; text-decoration:blink;}
