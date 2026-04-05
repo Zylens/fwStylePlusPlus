@@ -1,0 +1,14 @@
+/*
+D=deceiver(Betr�ger)
+M=Mod(Moderator)
+H=honest(ehrlich)
+I=Increaser(Erh�her)
+E=Extender(Verl�ngerer)
+*/
+/*Inkognito made by Inkognito*/
+.listusersrow a[href$='watchuser&act_user_id=1131']:before{ content:'(H) '; color:#cc0000;}
+.friendlist a[href$='watchuser&act_user_id=1131']:before{ content:'(H) '; color:#cc0000;}
+.listusersrow a[href$='watchuser&act_user_id=1131']:after{ content:' * (-)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=1131']:after{ content:' * (-)'; color:#FF6600;}
+.listusersrow a[href$='watchuser&act_user_id=1131']:hover:after{ content:' STYLE-MANAGER (no Skills)'; color:#FF6600;}
+.friendlist a[href$='watchuser&act_user_id=1131']:hover:after{ content:' STYLE-MANAGER (no Skills)'; color:#FF6600;}
